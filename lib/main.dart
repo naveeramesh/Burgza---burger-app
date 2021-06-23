@@ -28,11 +28,9 @@ class MyApp extends StatelessWidget {
             value: Get()),
              ChangeNotifierProvider.value(
             value: GenerateMaps()),
-
-            
-        ],
+            ],
         child: MaterialApp(
-          title: 'BURGZA',
+          title: 'BURG-ZA',
           debugShowCheckedModeBanner: false,
           theme: ThemeData(
             scaffoldBackgroundColor: Colors.black,
